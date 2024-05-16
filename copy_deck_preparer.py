@@ -22,7 +22,7 @@ def iniciar_extracao():
     # Variáveis para as URLs
     url_pagina = url_entry.get()
     login_url_aem = login_url_entry.get()
-    login_url_qa = "https://p6-qa.samsung.com/aemapi/user/login_sso?s_user_email=felipe.sf@samsung.com"
+    login_url_qa = # LINK DE LOGIN DE QA
 
     # Variáveis para os seletores
     seletor_alt = "#benefit img"
@@ -390,7 +390,7 @@ url_entry.grid(row=0, column=1, padx=5, pady=5)
 label_url_login = tk.Label(frame_extrator_dados, text="*AEM Login URL:")
 label_url_login.grid(row=1, column=0, padx=5, pady=5)
 login_url_entry = tk.Entry(frame_extrator_dados, width=50)
-login_url_entry.insert(0, "https://p6-us-author.samsung.com/aemapi/user/login_sso?s_user_email=felipe.sf@samsung.com") 
+login_url_entry.insert(0, #INSERIR O LOGIN DO AEM QUE DESEJA SER O PADRÃO PRÉ PREENCHIDO) 
 login_url_entry.grid(row=1, column=1, padx=5, pady=5)
 
 # Botão de ação
